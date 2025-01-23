@@ -1,5 +1,5 @@
 
-const Tool = ({title, noYearExpereince}) => {
+const Tool = ({title, noYearExperience}) => {
 
     return (
         <div style={{ }}>
@@ -12,10 +12,12 @@ const Tool = ({title, noYearExpereince}) => {
         >
                 {title}
             </h1>
-            <p>
-                {noYearExpereince}
+            <p style={{textDecorationColor: "black"}}>
+                {noYearExperience}
             </p>
 
         </div>
     )
 }
+
+export default Tool;

@@ -1,17 +1,17 @@
 import Home from "./Home";
+import Tools from "./Tools";
 
 const Portfolio = () => {
 
     return (
     <>
         <div style={{
-            backgroundColor: "blue" ,  
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
+            backgroundColor: "#151515" ,  
+            
             }}
         >
             <Home />
+            <Tools/>
         </div>
         <footer>
             <div></div>

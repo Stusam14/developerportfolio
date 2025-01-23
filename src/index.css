@@ -1,7 +1,13 @@
-body {
+body, html {
   margin: 0;
   padding: 0;
+  color: white;
   font-family: "Space Grotesk";
   background-color: #151515;     
+}
+
+*{
+  margin: 0;
+  padding:0;
 }
 

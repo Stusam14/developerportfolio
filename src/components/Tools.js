@@ -1,3 +1,4 @@
+import Tool from "./Tool";
 
 const Tools = ()=>{
 
@@ -30,7 +31,11 @@ const Tools = ()=>{
     ];
     return (
         <div>
-            
+            {toolData.map((tool)=>
+                <Tool title={tool.title} noYearExpereince={tool.noYearExperience}/>
+            )}
         </div>
     )
 }
+
+export default Tools;
