@@ -1,13 +1,15 @@
 const Homecard = () =>{
     
-    return (<div>
+    return (<div style={{boxSizing: "border-box"}}>
     
-        <h1 style={{width:"709px", height: "88px"}}>Nice to meet you!</h1>
-        <div style={{display: "flex", margin: "0",padding: "0"}}>
-            <h1 style={{width:"120px", height: "88px"}} >I’m</h1>
-            <h1 style={{width:"518px", height: "88px"}}>Adam Keyes.</h1>
-        </div>
-        <div style={{width: "445px", height: "84px"}}>
+        <h1 style={{ fontSize:"88px"}}>Nice to meet you!</h1>
+        <h1 style={{fontSize:"88px",display:"flex",transform: "translateY(-20px)"}} >I’m <span style={{marginLeft: "15px" , 
+            textDecoration: "underline", 
+            textUnderlineOffset:"15px",
+            textDecorationColor:"#4EE1A0",
+            }}>Adam Keyes.</span></h1>
+    
+        <div style={{width: "445px", height: "84px",fontSize:"18px",margin:"15px 0"}}>
             <p>
                 Based in the UK, I’m a 
                 front-end developer 

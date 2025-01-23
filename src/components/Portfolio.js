@@ -6,7 +6,8 @@ const Portfolio = () => {
     return (
     <>
         <div style={{
-            backgroundColor: "#151515" ,  
+            backgroundColor: "#151515" ,
+            // backgroundColor: "blue"  
             
             }}
         >

@@ -3,11 +3,11 @@ import Homecard from "./Homecard";
 const Home = ()=>{
 
     return (
-        <div>
-            <div style={{color:"blue",boxSizing: "content-box", display: "flex"}}>
+        <div >
+            <div style={{color:"white",boxSizing: "content-box", display: "flex", flexDirection: "row",justifyContent: "space-between"}}>
 
-                <div>
-                    <h1>adamkeyes</h1>
+                <div style={{display:"flex",flexDirection: "column",justifyContent:"space-between"}}>
+                    <h1 style={{marginTop: "39px",transform: "translateX(7px)"}}>adamkeyes</h1>
                     <button style={{width: "117px", 
                         border: "none",
                         color: "white", 
@@ -17,13 +17,17 @@ const Home = ()=>{
                         textDecorationColor: "#4EE1A0",
                         textUnderlineOffset: "10px",
                         backgroundColor: "#151515",
+                        marginBottom: "153px",
+                        transform: "translateX(-7px)",
 
                         }}
                     >CONTACT ME</button>
                 </div>
-                <img alt="ImgProfile" src="./images/image-profile-desktop.webp" style={{ maxWidth: "445px", maxHeight: "720px",}}/>
+                <img alt="ImgProfile" src="/images/image-profile-desktop.webp" style={{ maxWidth: "445px", maxHeight: "720px",}}/>
             </div>
-            <Homecard/>
+            <div style={{boxSizing: "content-box" , transform: "translate(7px, -530px)"}}>
+                <Homecard/>
+            </div>
             
         </div>
     )
