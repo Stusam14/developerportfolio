@@ -2,8 +2,8 @@ const Homecard = () =>{
     
     return (<div style={{boxSizing: "border-box"}}>
     
-        <h1 style={{ fontSize:"88px"}}>Nice to meet you!</h1>
-        <h1 style={{fontSize:"88px",display:"flex",transform: "translateY(-20px)"}} >I’m <span style={{marginLeft: "15px" , 
+        <h1 style={{ fontSize:"79px"}}>Nice to meet you!</h1>
+        <h1 style={{fontSize:"79px",display:"flex",transform: "translateY(-20px)"}} >I’m <span style={{marginLeft: "15px" , 
             textDecoration: "underline", 
             textUnderlineOffset:"15px",
             textDecorationColor:"#4EE1A0",

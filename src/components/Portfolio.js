@@ -5,18 +5,18 @@ const Portfolio = () => {
 
     return (
     <>
-        <div style={{
+        <div style={{ 
             backgroundColor: "#151515" ,
-            // backgroundColor: "blue"  
+            // backgroundColor: "blue" ,
             
             }}
         >
             <Home />
             <Tools/>
         </div>
-        <footer>
+        {/* <footer style={{backgroundColor: "blue"}}>
             <div></div>
-        </footer>
+        </footer> */}
     </>)
 }
 

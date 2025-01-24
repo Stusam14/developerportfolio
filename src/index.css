@@ -1,13 +1,61 @@
-body, html {
+@import-normalize;
+
+ *,*::before,*::after{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+ }
+
+ html{
+
+  font-size: 18px;
+  scroll-behavior: smooth;
+ }
+
+ body{
   color: white;
   font-family: "Space Grotesk";
-  background-color: #151515;     
+  background-color: #151515;
+  overflow-x: hidden;
+  min-height: 100vh;
 }
 
-*{
-  margin: 0;
-  padding:0;
+h1,h2,h3,h4,h5,h6{
+
+  font-weight: bold;
+  margin: 0 0 0 0.5;
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  /* vertical-align: middle; */
+}
+
+*:focus{
+  outline: none;
+}
+
+
+input, button, textarea{
+  font-family: inherit;
+  border: none;
+  outline: none ;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper{
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 
