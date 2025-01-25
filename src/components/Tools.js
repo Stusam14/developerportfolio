@@ -36,7 +36,12 @@ const Tools = ()=>{
         }
     ];
     return (
-        <div style={{display: "grid" , gridTemplateColumns: "1fr 1fr 1fr", justifyContent: "space-between",borderTop: "3px solid #979797"}}>
+        <div style={{
+            display: "grid" , 
+            gridTemplateColumns: "1fr 1fr 1fr", 
+            justifyContent: "space-between",
+            borderTop: "3px solid #979797", 
+            marginTop:"72px"}}>
             {toolData.map((tool)=>
                 <Tool key={tool.key} title={tool.title} noYearExperience={tool.noYearExperience}/>
             )}

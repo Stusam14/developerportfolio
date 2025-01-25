@@ -1,40 +1,9 @@
-/* @media (min-width: 640px) {
-    #appID {
-      max-width: 640px;
-    }
-  }
-  
-  @media (min-width: 768px) and (max-width: 1023px) {
-    #appID {
-      max-width: 768px;
-    }
-  }
-  
-  @media (min-width: 1024px) and (max-width: 1279px) {
-    #appID {
-      max-width: 1024px;
-    }
-  }
-  
-  @media (min-width: 1280px) and (max-width: 1535px) {
-    #appID {
-      max-width: 1280px;
-    }
-  }
-  
-  @media (min-width: 1536px) {
-    #appID {
-      max-width: 1536px;
-    }
-  }
-   */
-
    #appID {
     background-color: #151515;
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
   }
   
   @media (max-width: 1024px) {

@@ -1,43 +1,10 @@
-import Homecard from "./Homecard";
 
-const Home = ()=>{
+const Logoandcontact = ()=>{
 
     return (
-        <>
-            <div style={{ color:"white",boxSizing: "border-box", display: "flex", flexDirection: "row",justifyContent: "space-between"}}>
-
-                <div style={{display:"flex",flexDirection: "column",justifyContent:"space-between"}}>
-                    <h1 style={{paddingTop: "39px",transform: "translateX(7px)"}}>adamkeyes</h1>
-                    <button style={{
-                        width: "117px", 
-                        border: "none",
-                        color: "white", 
-                        height: "26px", 
-                        overflow: "hidden",
-                        textDecoration: "underline",
-                        textDecorationThickness: "2px",
-                        textDecorationColor: "#4EE1A0",
-                        textUnderlineOffset: "10px",
-                        backgroundColor: "#151515",
-                        paddingBottom: "100px",
-                        transform: "translateX(-7px)",
-
-                        }}  
-                    >CONTACT ME</button>
-                </div>
-                <img alt="ImgProfile" src="/images/image-profile-desktop.webp" style={{ maxWidth: "445px", maxHeight: "720px",}}/>
-            </div>
-            <div style={{position:"absolute", boxSizing: "border-box" , transform: "translate(-6px, -535px)"}}>
-                <Homecard/>
-            </div>
-            <div style={{position: "absolute",overflow: "hidden",transform:"translate(560px,-205px)"}}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="129" height="129"><circle cx="830.5" cy="585.5" r="64" fill="none" stroke="#FFF" transform="translate(-766 -521)"/></svg>
-            </div>
-            <div style={{ overflow: "hidden",position: "absolute", top: "140px", left:"-160px"}}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="530" height="129"><g fill="none" fill-rule="evenodd" stroke="#FFF" opacity=".25"><ellipse cx="265" cy="40" rx="264.5" ry="39.5"/><ellipse cx="265" cy="52" rx="264.5" ry="39.5"/><ellipse cx="265" cy="65" rx="264.5" ry="39.5"/><ellipse cx="265" cy="77" rx="264.5" ry="39.5"/><ellipse cx="265" cy="89" rx="264.5" ry="39.5"/></g></svg>
-            </div>
-            
-            <div style={{width: "192.49px",height: "25px", position:"absolute",left:"950px",bottom: "575px", display: "flex" , flexDirection: "row", justifyContent: "space-between",}}>
+    <div style={{display: "flex" , flexDirection:"row", justifyContent:"space-between"}}>
+        <h1 >adamkeyes</h1>
+        <div style={{width: "192.49px",height: "25px",display: "flex" , flexDirection: "row", justifyContent: "space-between",}}>
                 <div style={{overflow: "hidden"}}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24"><path fill="#FFF" fill-rule="evenodd" d="M12.304 0C5.506 0 0 5.506 0 12.304c0 5.444 3.522 10.042 8.413 11.672.615.108.845-.261.845-.584 0-.292-.015-1.261-.015-2.291-3.091.569-3.891-.754-4.137-1.446-.138-.354-.738-1.446-1.261-1.738-.43-.23-1.046-.8-.016-.815.97-.015 1.661.892 1.892 1.261 1.107 1.86 2.876 1.338 3.584 1.015.107-.8.43-1.338.784-1.646-2.738-.307-5.598-1.368-5.598-6.074 0-1.338.477-2.446 1.26-3.307-.122-.308-.553-1.569.124-3.26 0 0 1.03-.323 3.383 1.26.985-.276 2.03-.415 3.076-.415 1.046 0 2.092.139 3.076.416 2.353-1.6 3.384-1.261 3.384-1.261.676 1.691.246 2.952.123 3.26.784.861 1.26 1.953 1.26 3.307 0 4.721-2.875 5.767-5.613 6.074.446.385.83 1.123.83 2.277 0 1.645-.015 2.968-.015 3.383 0 .323.231.708.846.584a12.324 12.324 0 0 0 8.382-11.672C24.607 5.506 19.101 0 12.304 0Z"/></svg>
                 </div>
@@ -50,10 +17,8 @@ const Home = ()=>{
                 <div style={{overflow: "hidden"}}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="26" height="23"><path fill="#FFF" d="M13.084.23a.751.751 0 0 0-.736.75v14.267a.75.75 0 1 0 1.5 0V.98a.75.75 0 0 0-.763-.75ZM24.44 4.504a.752.752 0 0 0-.284.064l-6.44 2.875a.752.752 0 0 0 0 1.37l6.44 2.884a.75.75 0 0 0 .612-1.369L19.861 8.13l4.907-2.191a.753.753 0 0 0 .38-.99.752.752 0 0 0-.708-.444ZM1.371 9.663a.752.752 0 0 0-.74.938C2.41 17.447 8.603 22.23 15.685 22.23a.75.75 0 1 0 0-1.501A14.053 14.053 0 0 1 2.083 10.225a.75.75 0 0 0-.712-.561v-.001Z"/></svg>
                 </div> 
-        </div>
-                        
-        </>
-    )
+        </div> 
+    </div>)
 }
 
-export default Home;
+export default Logoandcontact;
